@@ -4,8 +4,8 @@
   "description": "<%= desc %>",
   "main": "main.ts",
   "scripts": {
-    "build": "esbuild main.ts --bundle --outfile=main.js --outdir=dist --global-name=__plugin_<%= safeName %> --footer:js=__plugin_<%= safeName %>",
-    "dev": "esbuild main.ts --bundle --watch --outfile=main.js --outdir=dist --global-name=__plugin_<%= safeName %> --footer:js=__plugin_<%= safeName %>"
+    "build": "esbuild main.ts --bundle --outfile=dist/main.js --global-name=__plugin_<%= safeName %> --footer:js=__plugin_<%= safeName %>",
+    "dev": "esbuild main.ts --bundle --watch --outfile=dist/main.js --global-name=__plugin_<%= safeName %> --footer:js=__plugin_<%= safeName %>"
   },
   "author": "<%= author %>",
   "license": "<%= license %>",
