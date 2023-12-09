@@ -58,7 +58,7 @@ module.exports = class extends Generator {
       author: this.props.author,
       safeName: name.replace(/[-\s]/, "_"),
     }
-
+    
     this.fs.copyTpl(
       this.templatePath('main.ts'),
       this.destinationPath('main.ts'),
