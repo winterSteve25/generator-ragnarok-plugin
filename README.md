@@ -7,6 +7,8 @@ Use NPM and the `create-yo` package to invoke this generator
 npm init yo ragnarok-plugin
 ```
 
+This will *not* create a new directory
+
 ## Manual Usage
 Install the `yo` package from NPM or your system package manager
 > On arch, you can use yay or other AUR helpers to download the package from AUR via `yay -S yo`
@@ -19,3 +21,5 @@ Then, invoke the generator using
 ```
 yo ragnarok-plugin
 ```
+
+This will *not* create a new directory
