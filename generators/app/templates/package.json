@@ -1,0 +1,22 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "description": "<%= desc %>",
+  "main": "main.ts",
+  "scripts": {
+    "build": "esbuild main.ts --bundle --outfile=main.js --global-name=__plugin_<%= safeName %> --footer:js=__plugin_<%= safeName %>"
+  },
+  "author": "<%= author %>",
+  "license": "<%= license %>",
+  "devDependencies": {
+    "esbuild": "latest",
+    "typescript": "latest"
+  },
+  "keywords": [
+    "ragnarok-editor-plugin"
+  ],
+  "dependencies": {
+    "@tauri-apps/api": "latest",
+    "@wintersteve25/ragnarok-api": "latest"
+  }
+}
