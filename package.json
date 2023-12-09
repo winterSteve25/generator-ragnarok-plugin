@@ -1,6 +1,6 @@
 {
   "name": "generator-ragnarok-plugin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generates a template for a Ragnarok plugin",
   "homepage": "",
   "author": {
