@@ -18,6 +18,6 @@
   ],
   "dependencies": {
     "@tauri-apps/api": "latest",
-    "@wintersteve25/ragnarok-api": "latest"
+    "ragnarok-api": "latest"
   }
 }
